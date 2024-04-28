@@ -4,6 +4,8 @@ YEAR=$(date +%Y)
 MONTH=$(date +%m)
 DAY=$(date +%d)
 
-echo $YEAR
+. ./jalali_year.sh
+
+echo $JYEAR
 echo $MONTH
 echo $DAY
